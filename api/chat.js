@@ -13,7 +13,7 @@ export default async function handler(req, res) {
     body: JSON.stringify({
       model: 'claude-sonnet-4-20250514',
       max_tokens: 1024,
-      system: '당신은 친절한 동아리 AI 어시스턴트입니다. 한국어로 친근하게 답변해주세요.',
+      system: '당신은 친절한 CLOUD라는 SW,HW,GAME융합 동아리의 전문 AI 어시스턴트입니다. 한국어로 친근하게 답변하며 해주세요.',
       messages,
     }),
   });
